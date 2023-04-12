@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Article preview</title>
+    <link
+      rel="shortcut icon"
+      href="img/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+  </head>
+  <body class="bg-[#ecf2f8] grid place-content-center my-10 md:my-44">
+    <div class="flex flex-col md:flex-row">
+      <div class="shadow-md block">
+        <img
+          class="w-[420px] h-full md:w-[330px] rounded-t-xl md:rounded-tr-none md:rounded-l-xl"
+          src="img/drawers.jpg"
+          alt="avatar-michelle"
+        />
+      </div>
+      <div
+        class="shadow-md bg-white overflow-hidden w-[420px] pb-3 p-9 md:p-[28.5px] rounded-b-xl md:rounded-bl-none md:rounded-r-xl"
+      >
+        <h1 class="text-[19px] font-medium leading-[1.7rem] pb-3.5">
+          Shift the overall look and feel by
+          <span class="block">adding these wonderful touches to</span> furniture
+          in your home
+        </h1>
+        <p class="text-xs text-gray-500 leading-5 pb-5 md:pb-3.5">
+          Ever been in a room and felt like something was missing?
+          <span class="md:block"
+            >Perhaps it felt slightly bare and uninviting. I've got some</span
+          >
+          simple tips to help you make any room feel complete.
+        </p>
+        <div class="flex gap-36">
+          <div class="inline-flex gap-4 mt-6">
+            <img
+              class="w-9 h-9 rounded-full object-cover"
+              src="img/avatar-michelle.jpg"
+              alt="avatar-michelle"
+            />
+            <div>
+              <p class="text-[13.5px] font-bold text-black/80">
+                Michelle Appleton
+              </p>
+              <p class="text-[13px] text-gray-400">28 Jun 2020</p>
+            </div>
+          </div>
+          <button
+            title="share"
+            class="open-share inline-flex justify-center items-center border-none w-8 h-8 rounded-full bg-slate-100 focus:bg-[#7a8494] md:focus:bg-[#48556a] text-[#48556a] focus:outline-none mt-6 focus:text-[#ecf2f8] z-50"
+          >
+            <i class="fa-solid fa-share"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="share hidden">
+      <div
+        class="w-[420px] md:w-60 h-[72px] md:h-12 bg-[#48556a] flex justify-start md:justify-center items-center pl-9 shadow-xl gap-6 rounded-t-none rounded-b-lg md:rounded-lg absolute left-9 md:left-[880px] top-[590px] md:top-[325px]"
+      >
+        <h2 class="text-sm md:text-xs text-[#ecf2f8] tracking-[0.3em]">
+          SHARE
+        </h2>
+        <a
+          href="https://facebook.com"
+          title="Facebook"
+          class="fa-brands fa-facebook text-white fa-lg"
+        ></a>
+        <a
+          title="twitter"
+          href="http://twitter.com"
+          class="fa-brands fa-twitter text-white fa-lg"
+        ></a>
+        <a
+          title="pinterest"
+          href="https://pinterest.com"
+          class="fa-brands fa-pinterest text-white fa-lg"
+        ></a>
+        <i
+          class="fa-sharp fa-solid fa-sort-down fa-2xl text-[#48556a] relative top-5 -left-[125px] invisible md:visible"
+        ></i>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
